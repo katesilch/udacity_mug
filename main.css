@@ -1,0 +1,65 @@
+* {
+	font-family: "kalimati", verdana, sans-serif;
+}
+
+ul {
+	color: #666;
+	font-size: 16px;
+	line-height: 2;
+}
+
+h1 {
+	color: #666;
+	font-size: 48px;
+	margin-bottom: 30px;
+	padding: 25px 0 0 3px;
+	text-align: center;
+}
+
+h2 {
+	color: #f07c17;
+	font-size: 24px;
+	font-weight: bolder;
+	margin: 0 0 30px;
+}
+
+p {
+	color: #666;
+	font-size: 16px;
+	line-height: 2;
+}
+
+.container {
+	padding: 0 46px 0 42px;
+	width: 1024px; /*As per mockup pixel specifications - page width*/
+}
+
+.row {
+	margin: 0;
+	width: 936px; /*Aa per mockup pixel specifications - content width*/
+}
+
+.column-1 { /*Left part of the content */
+	padding: 0;
+}
+
+.column-2 { /*Right part of the content*/
+	padding: 0 0 0 14px;
+}
+
+.features { /*Box with "Main Features" heading and unordered list*/
+	border: 1px solid #ccc;
+	padding: 30px 0 0 30px;
+	margin: 30px 0 0;
+	height: 224px;
+	width: 374px; /*I used 374px instead of mockup's specified 375px to be able to perfectly match my page to the default page*/
+}
+
+.description-heading {
+	padding-top: 0;
+}
+
+.image { /*I used 374px instead of mockup's specified 375px to be able to perfectly match my page to the default page*/
+	height: 374px;
+	width: 374px;
+}
